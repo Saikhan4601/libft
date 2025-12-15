@@ -18,7 +18,7 @@ char *ft_substr(const char *s, unsigned int start, size_t len)
     if (len > ft_strlen(s + start))
         len = ft_strlen(s + start);
     /* tegeed memory allocate hiine*/
-    str = ft_calloc((len + 1) * sizeof(char));
+    str = ft_calloc((len + 1), sizeof(char));
     if (!str)
         return (NULL);
     i = 0;
@@ -29,4 +29,5 @@ char *ft_substr(const char *s, unsigned int start, size_t len)
     }
     str[i] = '\0';
     return (str);
+
 }
