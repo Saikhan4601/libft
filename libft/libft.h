@@ -16,9 +16,12 @@ int	ft_tolower(int c);
 size_t	ft_strlen(const char *str);
 
 void	ft_bzero(void *s, size_t n);
-void *ft_memset(void *a, int c, size_t len);
+void	*ft_memset(void *a, int c, size_t len);
 
 int	ft_atoi(const char *str);
 
+char	*ft_strdup(const char *s1);
+void	*ft_calloc(size_t count, size_t size);
+char	*ft_strtrim(const char *s1, const char *set);
 
 #endif
