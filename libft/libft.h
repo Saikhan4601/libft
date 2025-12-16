@@ -4,6 +4,7 @@
 # include <stdlib.h> //malloc null
 # include <unistd.h>
 # include <stdio.h>
+# include <string.h>
 
 
 int	ft_isalpha(int c);
