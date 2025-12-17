@@ -15,7 +15,7 @@ The project is compiled using the provided Makefile. All source files must be co
 
 To compile the library (libft.a), run the following command:
 
-**`make`** or **`make all`** -- Compiles all .c source files and creates libft.a.
+**`make`** or **`make all`** -- Compiles all .c source files and creates libft.a.  
 **`make clean`**	     -- Removes all object files (.o).
 **`make fclean`**	     -- Removes all object files (.o) and the compiled library file (libft.a).
 `make re`	         -- recompiles everything.
