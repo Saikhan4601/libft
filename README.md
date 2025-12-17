@@ -109,12 +109,12 @@ typedef struct s_list
 
 4. `ft_lstlast   `   ---Returns a pointer to the last node of the list.
 
-5. ft_lstadd_back	---Adds the new node to the end of the list (lst).
+5. `ft_lstadd_back`	---Adds the new node to the end of the list (lst).
 
-6. ft_lstdelone	  ---Frees the node's content using del, then frees the node itself. Does not free the next node.
+6. `ft_lstdelone`	  ---Frees the node's content using del, then frees the node itself. Does not free the next node.
 
-7. ft_lstclear	    ---Deletes and frees the given node and all its successors, setting the list pointer to NULL.
+7. `ft_lstclear`	    ---Deletes and frees the given node and all its successors, setting the list pointer to NULL.
 
-8. ft_lstiter	    ---Applies the function f to the content of every node in the list.
+8. `ft_lstiter`	    ---Applies the function f to the content of every node in the list.
 
-9. ft_lstmap	      ---Creates a new list by applying function f to the content of each node in the original list.
+9. `ft_lstmap`	      ---Creates a new list by applying function f to the content of each node in the original list.
