@@ -20,16 +20,15 @@ To compile the library (libft.a), run the following command:
 `make re`	         -- recompiles everything.  
 
 ## Resources
-Standard C Library (libc) Man Pages.
-websites to ask:
-                https://www.geeksforgeeks.org/
-                https://stackoverflow.com/questions
-                youtube - https://www.youtube.com/@PortfolioCourses
+Standard C Library (libc) Man Pages.  
+https://www.geeksforgeeks.org/  
+https://stackoverflow.com/questions  
+youtube - https://www.youtube.com/@PortfolioCourses  
 
 ## AI Usage Description (Mandatory)
-The use of AI:
-Understanding Concepts: Asking for explanations of complex concepts (e.g., function pointers, memory allocation, the purpose of void * in the generic list structure) to facilitate better learning, rather than asking for direct answers.
-Debugging Assistance: Analyzing error messages (e.g., segmentation faults, memory leak reports) to identify faulty logic, ensuring all heap-allocated memory is properly freed.
+The use of AI:  
+Understanding Concepts: Asking for explanations of complex concepts (e.g., function pointers, memory allocation, the purpose of void * in the generic list structure) to facilitate better learning, rather than asking for direct answers.  
+Debugging Assistance: Analyzing error messages (e.g., segmentation faults, memory leak reports) to identify faulty logic, ensuring all heap-allocated memory is properly freed.  
 
 ## Detailed Library Description
 
@@ -61,37 +60,37 @@ Debugging Assistance: Analyzing error messages (e.g., segmentation faults, memor
 
 ### Additional Functions(Part 2)
 
-1. ft_substr	
+1. `ft_substr`	
 Allocates memory and returns a substring from string s, starting at index start with a maximum length of len. Returns NULL if allocation fails.
 
-2. ft_strjoin	
+2. `ft_strjoin`
 Allocates memory and returns a new string, the result of concatenating s1 (prefix) and s2 (suffix). Returns NULL if allocation fails.
 
-3. ft_strtrim	
+3. `ft_strtrim	`
 Allocates memory and returns a copy of s1 with characters from set removed from the beginning and the end. Returns NULL if allocation fails.
 
-4. ft_split	
+4. `ft_split	`
 Allocates memory and returns an array of strings obtained by splitting s using the character c as a delimiter. The array must end with a NULL pointer. Returns NULL if allocation fails.
 
-5. ft_itoa	
+5. `ft_itoa	`
 Allocates memory and returns a string representing the integer n. Negative numbers must be handled. Returns NULL if allocation fails.
 
-6. ft_strmapi	
+6. `ft_strmapi	`
 Applies the function f to each character of s, passing its index, and creates a new string with the results. Returns NULL if allocation fails.
 
-7. ft_striteri	
+7. `ft_striteri`
 Applies the function f to each character of s, passing its index. The character is passed by address so it can be modified.
 
-8. ft_putchar_fd	
+8. `ft_putchar_fd`	
 Outputs the character c to the specified file descriptor fd.
 
-9. ft_putstr_fd	
+9. `ft_putstr_fd	`
 Outputs the string s to the specified file descriptor fd.
 
-10. ft_putendl_fd	
+10. `ft_putendl_fd	`
 Outputs the string s to the specified file descriptor fd followed by a newline.
 
-11. ft_putnbr_fd	
+11. `ft_putnbr_fd	`
 Outputs the integer n to the specified file descriptor fd.
 
 ### Linked List Functions (Part 3)
@@ -102,13 +101,13 @@ typedef struct s_list
     struct s_list   *next;
 } t_list;
 
-1. ft_lstnew     	---Allocates a new node and initializes its content and sets next to NULL.
+1. `ft_lstnew `    	---Allocates a new node and initializes its content and sets next to NULL.
 
-2. ft_lstadd_front	---Adds the new node to the beginning of the list (lst).
+2. `ft_lstadd_front`	---Adds the new node to the beginning of the list (lst).
 
-3. ft_lstsize	    ---Counts the number of nodes in the list.
+3. `ft_lstsize	`    ---Counts the number of nodes in the list.
 
-4. ft_lstlast      ---Returns a pointer to the last node of the list.
+4. `ft_lstlast   `   ---Returns a pointer to the last node of the list.
 
 5. ft_lstadd_back	---Adds the new node to the end of the list (lst).
 
