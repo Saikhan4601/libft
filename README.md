@@ -1,24 +1,23 @@
-This project has been created as part of the 42 curriculum by <login1>
+This project has been created as part of the 42 curriculum by sadavaas.
 
 ## Description
-The primary goal is to create a custom C library (libft.a) containing functions.
+The primary goal is to create a custom C library (libft.a) containing functions.  
 
-The project is divided into three parts:
-Part 1: Reimplementation of functions from the standard C library (libc).
-Part 2: Implementation of additional utility functions for string manipulation, conversion, and file descriptor output.
-Part 3: Implementation of functions for managing a linked list data structure (t_list).
+The project is divided into three parts:  
+Part 1: Reimplementation of functions from the standard C library (libc).  
+Part 2: Implementation of additional utility functions for string manipulation, conversion, and file descriptor output.  
+Part 3: Implementation of functions for managing a linked list data structure (t_list).  
 
 ## Instructions
-Compilation
-The project is compiled using the provided Makefile. All source files must be compiled with the C compiler (cc) using the flags -Wall, -Wextra, and -Werror.
+Compilation  
+The project is compiled using the provided Makefile. All source files must be compiled with the C compiler (cc) using the flags -Wall, -Wextra, and -Werror.  
 
-
-To compile the library (libft.a), run the following command:
+To compile the library (libft.a), run the following command:  
 
 **`make`** or **`make all`** -- Compiles all .c source files and creates libft.a.  
-**`make clean`**	     -- Removes all object files (.o).
-**`make fclean`**	     -- Removes all object files (.o) and the compiled library file (libft.a).
-`make re`	         -- recompiles everything.
+**`make clean`**	     -- Removes all object files (.o).  
+**`make fclean`**	     -- Removes all object files (.o) and the compiled library file (libft.a).  
+`make re`	         -- recompiles everything.  
 
 ## Resources
 Standard C Library (libc) Man Pages.
