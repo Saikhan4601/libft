@@ -28,7 +28,7 @@ websites to ask:
                 youtube - https://www.youtube.com/@PortfolioCourses
 
 ## AI Usage Description (Mandatory)
-The use of AI in this project was strictly limited to:
+The use of AI:
 Understanding Concepts: Asking for explanations of complex concepts (e.g., function pointers, memory allocation, the purpose of void * in the generic list structure) to facilitate better learning, rather than asking for direct answers.
 Debugging Assistance: Analyzing error messages (e.g., segmentation faults, memory leak reports) to identify faulty logic, ensuring all heap-allocated memory is properly freed.
 
