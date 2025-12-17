@@ -14,7 +14,7 @@ The project is compiled using the provided Makefile. All source files must be co
 
 To compile the library (libft.a), run the following command:  
 
-**`make`** or **`make all`** -- Compiles all .c source files and creates libft.a.  
+**`make`** or **`make all`** -- Compiles all .c source files and creates `libft.a`.  
 **`make clean`**	     -- Removes all object files (.o).  
 **`make fclean`**	     -- Removes all object files (.o) and the compiled library file (libft.a).  
 `make re`	         -- recompiles everything.  
@@ -105,9 +105,9 @@ typedef struct s_list
 
 2. `ft_lstadd_front`	---Adds the new node to the beginning of the list (lst).
 
-3. `ft_lstsize	`    ---Counts the number of nodes in the list.
+3. `ft_lstsize`    ---Counts the number of nodes in the list.
 
-4. `ft_lstlast   `   ---Returns a pointer to the last node of the list.
+4. `ft_lstlast`   ---Returns a pointer to the last node of the list.
 
 5. `ft_lstadd_back`	---Adds the new node to the end of the list (lst).
 
